@@ -11,12 +11,12 @@ public class Main {
         if(strm.length!=2){
             throw new Na();
         }else {
-            String st = strm[0]; //надо для определения индекса оператора
+            String st = strm[0]; 
 
 
 
 
-            char ch = str.charAt(st.length()); //надо для определения индекса оператора
+            char ch = str.charAt(st.length()); 
             int[] chisla = new int[strm.length];
             for (int i = 0; i < strm.length; i++) {
                 chisla[i] = Integer.parseInt(strm[i]);

@@ -30,6 +30,9 @@ public class Main {
             }
             System.out.println();
             int res = 0;
+            if(chisla[1]==0){
+                Sistem.out.print("на ноль делить нельзя")
+                    }else{
             switch (ch) {
                 case '+':
                     res = chisla[0] + chisla[1];
@@ -46,7 +49,7 @@ public class Main {
                 default:
                     throw new Na();
             }
-            System.out.print("RESULT__" + res);
+            System.out.print("RESULT__" + res);}
         }
 
 
